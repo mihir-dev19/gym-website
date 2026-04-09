@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mihir Fitness Gym</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #111;
+            color: white;
+        }
+
+        header {
+            background: #ff4d00;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b') no-repeat center/cover;
+}
+.hero h1, .hero p {
+    background: rgba(0,0,0,0.6);
+    display: inline-block;
+    padding: 10px;
+}
+        .btn {
+    padding: 12px 25px;
+    background: #ff4d00;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+    
+        
+        
+
+        .card {
+    background: #222;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+        .card img {
+            width: 100%;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #000;
+        }
+    </style>
+@media(max-width: 768px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+<body>
+
+<header>
+    <h2>Mihir Gym</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Transform Your Body</h1>
+    <p>Join the best fitness gym in your city</p>
+    <img src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74" width="300">
+    <br><br>
+    <button class="btn">Join Now</button>
+</section>
+
+<section class="services">
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b">
+        <h3>Weight Training</h3>
+        <p>Build muscle with expert guidance</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e">
+        <h3>Cardio</h3>
+        <p>Improve stamina and burn fat</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1517960413843-0aee8e2b3285">
+        <h3>Personal Trainer</h3>
+        <p>Get 1-on-1 coaching</p>
+    </div>
+</section>
+
+<footer>
+    <p>Contact: 9876543210</p>
+</footer>
+<a href="https://wa.me/917410906840" target="_blank" class="whatsapp">
+    Chat on WhatsApp
+</a>
+
+<style>
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+</style>
+</body>
+</html>
